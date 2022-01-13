@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+
+body{
+    background-color: #e9e7ee;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    font-size: 3em;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #f2f0f6;
+    box-shadow: inset 8px 8px 17px 0 rgba(0, 0, 0, 0.05), inset -13px -13px 12px 0 hsla(0, 0%, 100%, 0.65), -11px -11px 40px 3px #fff, 8px 14px 40px -20px rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+}
+
+button{
+    height: 50px;
+    width: 70px;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.iniciar-btn, .pausar-btn, .zerar-btn{
+    border: none;
+    border-radius: 23px;
+    background: #e9e7ee;
+    box-shadow: 12px 12px 24px #c6c4ca, -12px -12px 24px #ffffff;
+    cursor: pointer;
+}
+
+.iniciar-btn:hover, .pausar-btn:hover, .zerar-btn:hover ion-icon{
+    color:rgb(255, 185, 7);
+    border: none;
+    border-radius: 23px;
+    background: #e9e7ee;
+    box-shadow: 12px 12px 24px #c6c4ca, -12px -12px 24px #ffffff;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+
+
+
+
